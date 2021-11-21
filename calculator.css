@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* css for heading */
+h1
+{
+    /* font-size: 0.95rem; */
+}
+
+/* css for buttons */
+button
+{
+    width: 70px;
+    height: 60px;
+    margin: 5px;
+    background-color: rgb(156, 149, 149);
+    font-size: 1.3em;
+    border-radius:15px ;
+}
+
+.container
+{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    min-width: 500px;
+    min-height: 600px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px ;
+    background-color: rgb(142, 114, 196);
+    border-radius: 15px;
+}
+
+.display
+{
+    border: 1px solid black;
+    width: 320px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px 15px;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
